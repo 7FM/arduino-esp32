@@ -38,6 +38,9 @@ extern "C" {
 #include <esp_event_loop.h>
 #include <lwip/ip_addr.h>
 #include "dhcpserver/dhcpserver_options.h"
+#include "tcpip_adapter_types.h"
+typedef tcpip_adapter_dhcp_option_mode_t tcpip_adapter_option_mode_t;
+typedef tcpip_adapter_dhcp_option_id_t tcpip_adapter_option_id_t;
 }
 
 

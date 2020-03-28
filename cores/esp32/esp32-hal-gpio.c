@@ -27,7 +27,9 @@
 #include "esp32/rom/ets_sys.h"
 #include "esp32/rom/gpio.h"
 #include "esp_intr_alloc.h"
-#else 
+#include "sdkconfig.h"
+#include "soc/rtc_io_periph.h"
+#else
 #error Target CONFIG_IDF_TARGET is not supported
 #endif
 #else // ESP32 Before IDF 4.0

@@ -28,6 +28,8 @@
 - [Building with make](docs/make.md)
 - [Using as ESP-IDF component](docs/esp-idf_component.md)
 - [Using OTAWebUpdater](docs/OTAWebUpdate/OTAWebUpdate.md)
+- Enable RTCIO_SUPPORT_RTC_GPIO_DESC in `menuconfig`
+
 
 ### Decoding exceptions
 
